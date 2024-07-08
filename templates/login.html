@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/login.css">
+    <title>QG会议登录页面</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>登录</h2>
+        <form>
+            <div class="inputBox">
+                <input type="text" placeholder="姓名" class="text">
+            </div>
+            <div class="inputBox">
+                <input type="password" placeholder="密码" class="password">
+            </div>
+            <div class="inputBox_Click">
+                <input type="submit" value="登录" class="submit">
+            </div>
+
+            <p class="forget">没有账户?<a href="#" class="sign_up">
+                    注册
+                </a></p>
+        </form>
+    </div>
+    <div class="registration hidden">
+        <h2>注册</h2>
+        <form>
+            <div class="inputBox">
+                <input type="text" placeholder="姓名(长度1——10)" class="text">
+            </div>
+            <div class="inputBox">
+                <input type="password" placeholder="旧密码(由数字，下划线,字母组成，且6——12位)" class="password">
+            </div>
+            <div class="inputBox_Click">
+                <input type="submit" value="注册" class="registration_submit">
+            </div>
+            <p class="forget"><a href="#" class="return">
+                    返回登录界面
+                </a></p>
+
+        </form>
+    </div>
+    <div class="success">
+        登录成功!!!
+    </div>
+    <div class="loss">
+        登录失败!!!
+    </div>
+    <div class="sign_insuccess">
+        注册成功!!!
+    </div>
+    <div class="sign_inloss">
+        注册失败!!!
+    </div>
+    <script src=../static/login.js></script>
+</body>
+
+</html>
